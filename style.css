@@ -1,12 +1,52 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #454545;
+}
+
 h1 {
+    font-size: 40px;
     font-weight: lighter;
-    color: #000;
+}
+
+h2 {
+    font-weight: lighter;
     font-size: 32px;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #2F4F79;
+}
+
+li:hover { 
+    transform: scale(1.2);
+} 
+
+a{
+    text-decoration: none;
+    color: #2F4F79;
+}
+
+#wrapper {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.content {
+    min-width: 250px;
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+
 .header{
     text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .image-cropper {
@@ -14,7 +54,7 @@ h1 {
     height: fit-content;
     overflow: hidden;
     border-radius: 50%;
-    margin: auto;
+    margin: 0 auto;
 }
 .profile-pic {
   width: 200px;
