@@ -1,2 +1,2 @@
-# LucasPilla.github.io
-A Curriculum / Portifolio Website
+# [LucasPilla.github.io](lucaspilla.github.io)
+A Static Web Page made with CSS and HTML- Portfolio and Resume
